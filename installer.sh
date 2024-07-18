@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base directory and path to the package list file
-BASEDIR="$HOME/bash"
+BASEDIR="$HOME/order_66"
 FROM_PACKAGES_LIST="$BASEDIR/packages.txt"
 ERROR_LOG="$HOME/install.errors.txt"
 
