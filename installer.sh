@@ -1,6 +1,11 @@
 #!/bin/bash
 
 # Base directory and path to the package list file
+APPLICATION="pkmgr"
+BASE="$HOME/bash.$APPLICATION"
+FILES="$BASE/files"
+UPDATE="$FILES/.update.sh"
+
 BASEDIR="$HOME/order_66"
 FROM_PACKAGES_LIST="$BASEDIR/packages.txt"
 ERROR_LOG="$HOME/install.errors.txt"
@@ -165,6 +170,9 @@ package_manager_version
 # Pause the script
 echo -e "${GREEN} PRESS ENTER TO CONTINUE. ${NC}"
 read
+
+sh $UPDATE
+cp $UPDATE $HOME
 
 # Clear the error log file
 > "$ERROR_LOG"
