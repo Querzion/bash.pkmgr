@@ -7,7 +7,7 @@ git clone https://github.com/Querzion/bash.pkmgr.git $HOME
 chmod +x -r $HOME/bash.pkmgr
 ```
 ```bash
-sh $HOME/bash.pkmgr/start.sh
+sh $HOME/bash.pkmgr/installer.sh
 ```
 ### INSTALLS
   - Paru
