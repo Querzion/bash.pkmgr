@@ -14,7 +14,8 @@ sh $HOME/bash.pkmgr/installer.sh
   - Yay
   - Flatpak
 ### REDUNDANCY
-In order to verify that they are actually installed, it's going to go through the installation of the package managers twice.
+  -  In order to verify that they are actually installed, it's going to go through the installation of the package managers twice.
+  -  Updates the system before going through any installations.
 ### INFO
 This script was created in order to install packages that are in the format of ("packagemanager" "package" # Description)
   - YAY ex. "yay" "spotify-adblock" # Spotify with adblock
