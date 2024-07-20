@@ -23,6 +23,7 @@ This script was created in order to install packages that are in the format of (
   - PARU ex. "paru" "neovim" # Neovim text editor
   - PACMAN ex "pacman" "fastfetch" # Terminal Utility
 ### USAGE
-  -  Make a txt file: "package.txt"
-  -  Place it in $HOME/order_66 (so make that folder.)
+  -  Make a txt file: "packages.txt" (explicitly)
+  -  Fill it with directions and . . .
+  -  Place it in $HOME/order_66 (explicitly, so make that folder.)
 
