@@ -24,5 +24,5 @@ This script was created in order to install packages that are in the format of (
   - PACMAN ex "pacman" "fastfetch" # Terminal Utility
 ### USAGE
   -  Make a txt file: "package.txt"
-  -  Place it in $HOME/bash (so make that folder.)
+  -  Place it in $HOME/order_66 (so make that folder.)
 
