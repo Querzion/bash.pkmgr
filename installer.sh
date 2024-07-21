@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Color definitions
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+RED='\033[0;31m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+PURPLE='\033[0;35m'
+NC='\033[0m' # No Color
+
 # Base directory and path to the package list file
 APPLICATION="pkmgr"
 BASE="$HOME/bash.$APPLICATION"
@@ -10,14 +19,6 @@ BASEDIR="$HOME/order_66"
 FROM_PACKAGES_LIST="$BASEDIR/packages.txt"
 ERROR_LOG="$HOME/install.errors.txt"
 
-# Color definitions
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
-RED='\033[0;31m'
-BLUE='\033[0;34m'
-CYAN='\033[0;36m'
-PURPLE='\033[0;35m'
-NC='\033[0m' # No Color
 
 ############################################################################################################################### FUNCTION
 ################### PREREQUSITES | INSTALLATION OF PACKAGE MANAGERS
