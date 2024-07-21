@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 APPLICATION="pkmgr"
 BASE="$HOME/bash.$APPLICATION"
 FILES="$BASE/files"
-UPDATE="$FILES/.update.sh"
+UPDATE="$FILES/.update-system.sh"
 
 BASEDIR="$HOME/order_66"
 FROM_PACKAGES_LIST="$BASEDIR/packages.txt"
